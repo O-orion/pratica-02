@@ -12,6 +12,7 @@ import compression from "compression";
 import errorHandler from "./middleware/errorHandler.js";
 import indexRouter from "./routes/index.routes.js";
 
+// oo
 dotenv.config();
 
 const FRONTEND_URL = process.env.FRONTEND_URL || 'http://localhost:4200';
